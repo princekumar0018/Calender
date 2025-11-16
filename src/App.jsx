@@ -15,8 +15,9 @@ function App() {
     //     axios.defaults.baseURL = "https://google-calendar-api-psi.vercel.app"
     // }
 
-    axios.defaults.baseURL = "https://google-calendar-api-psi.vercel.app"
-    axios.defaults.baseURL = "http://localhost:5000"
+    // axios.defaults.baseURL = "https://google-calendar-api-psi.vercel.app"
+    // axios.defaults.baseURL = "http://localhost:5000"
+    axios.defaults.baseURL = "https://calender-04gu.onrender.com"
 
     axios.interceptors.request.use(function (config) {
 
